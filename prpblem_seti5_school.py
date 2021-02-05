@@ -1,4 +1,4 @@
-#Nesibe Özer
+
 
 class school ( ):
     def __init__ (self, kind, employee, teacherField, 
