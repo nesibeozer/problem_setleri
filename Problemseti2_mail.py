@@ -1,4 +1,4 @@
-#Nesibe Özer
+
 class mail:
     pass
 mail1 = mail( )
