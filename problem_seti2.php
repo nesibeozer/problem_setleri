@@ -13,8 +13,7 @@ index.php
   <body> 
 
       <style type="text/css">
-
-      
+  
 
       body {
 
@@ -23,22 +22,13 @@ index.php
             size: 12px;
 
       };
-
-
-
         </style>
 
     <?php
+    
+    $num_values = $_POST['num_val'];
 
- 
-
-     $num_values = $_POST['num_val'];
-
-
-
-  function CheckPerfect($num) {
-
-  
+    function CheckPerfect($num) {
 
   $i = 1;
 
@@ -57,7 +47,6 @@ index.php
 } 
 
 
-
   if($total == $num)
 
     $message = "$num is a perfect number.";
@@ -70,20 +59,13 @@ index.php
 
     }
 
-
-
-
-
    if(isset($_POST['submit'])) {
-
-                  
+                
 
       $results= CheckPerfect($num_values);
-
-       
+      
 
       }
-
 
 
  if(isset($_POST['clear'])) {
