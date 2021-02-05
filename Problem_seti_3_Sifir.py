@@ -1,4 +1,4 @@
-#Nesibe Özer
+
 x = [2,4,1,6,4,0,0]
 
 def move_zeros_to_left(A):
